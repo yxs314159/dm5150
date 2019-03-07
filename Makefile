@@ -1,0 +1,11 @@
+obj-$(CONFIG_VIDEO_REVERSE_IMAGE) += vehicle_flinger.o
+obj-$(CONFIG_VIDEO_REVERSE_IMAGE) += vehicle_dev.o
+obj-$(CONFIG_VIDEO_REVERSE_IMAGE) += vehicle_main.o
+obj-$(CONFIG_VIDEO_REVERSE_IMAGE) += vehicle_cif.o
+obj-$(CONFIG_VIDEO_REVERSE_IMAGE) += vehicle_ad_tp2825.o
+obj-$(CONFIG_VIDEO_REVERSE_IMAGE) += vehicle_generic_sensor.o
+obj-$(CONFIG_VIDEO_REVERSE_IMAGE) += vehicle_ad_7181.o
+obj-$(CONFIG_VIDEO_REVERSE_IMAGE) += vehicle_ad_tvp5150.o
+obj-$(CONFIG_VIDEO_REVERSE_IMAGE) += vehicle_ad_dm5886.o
+obj-$(CONFIG_VIDEO_REVERSE_IMAGE) += vehicle_ad_dm5150.o
+obj-$(CONFIG_VIDEO_REVERSE_IMAGE) += vehicle_gpio.o
