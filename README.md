@@ -1,1 +1,20 @@
-# dm5150
+ arch/arm/mach-rk30/board-rk3168-tb-camera.c        |    9 +
+ arch/arm/plat-rk/include/plat/rk_camera.h          |    6 +
+ drivers/hopechart/hqdeviceIo/hqdevice_io.c         |   43 +-
+ drivers/media/video/Kconfig                        |    6 +
+ drivers/media/video/Makefile                       |    1 +
+ drivers/media/video/dm5150.c                       | 1128 ++++++++++++++++++++
+ drivers/media/video/dm5150.h                       |   22 +
+ drivers/media/video/dm5886.c                       |   11 +-
+ drivers/media/video/tvp5150.c                      |   12 +-
+ drivers/video/rockchip/vehicle/Makefile            |    1 +
+ drivers/video/rockchip/vehicle/vehicle_ad_dm5150.c |  555 ++++++++++
+ drivers/video/rockchip/vehicle/vehicle_ad_dm5150.h |   13 +
+ drivers/video/rockchip/vehicle/vehicle_ad_dm5886.c |    4 +-
+ drivers/video/rockchip/vehicle/vehicle_generic_sensor.c      |   11 +
+ include/media/v4l2-chip-ident.h                    |    1 +
+ 15 files changed, 1813 insertions(+), 10 deletions(-)
+ create mode 100644 drivers/media/video/dm5150.c
+ create mode 100644 drivers/media/video/dm5150.h
+ create mode 100644 drivers/video/rockchip/vehicle/vehicle_ad_dm5150.c
+ create mode 100644 drivers/video/rockchip/vehicle/vehicle_ad_dm5150.h
